@@ -1,0 +1,13 @@
+// Name: Evan WIlcox	Date: 8/25/17
+// Section: b
+// File: homework01.txt
+// Description: Algorithm problems written in english
+
+//Problem 1
+
+1. Add thrid digit in each number together and write down.
+2. Repeat step 1 for second and first digits and write down left of previous
+number
+3. If first number is greater than or equal to 10 subtract 10 from number
+and add 1 to number to left.
+4. Repeat step 3 for second and thrid number

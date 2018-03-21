@@ -1,0 +1,31 @@
+// Name: Evan WIlcox	Date: 8/25/17
+// Section: b
+// File: homework01.txt
+// Description: Algorithm problems written in english
+
+//Problem 1
+
+1. Add thrid digit in each number together and write down.
+2. Repeat step 1 for second and first digits and write down left of previous
+number
+3. If first number is greater than 9, subtract 10 from number and add 1 to
+number to left.
+4. Repeat step 3 for second and thrid numberd, If thrid number is greater
+than 9 subtract 10 and write a 1 left of thrid number.
+5. Read remaining numbers left to right for final answer.
+
+
+//Problem 2
+
+1. Pick class from each category to add to scheldule.
+2. If total credit hours is greater than 11 and less than 21 you are fininshed.
+3. Pick class from any category that is not already on scheldule, violates
+prerequisites and add to scheldule, repeat step 2.
+
+
+//Problem 3
+
+1. Pick direction of traffic with most cars.
+2. Allow cars to pass from direction for 15 seconds.
+3. Pick directon counterclockwise of previous direction.
+4. Repeat steps 2-3 forever.

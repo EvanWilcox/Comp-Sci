@@ -1,0 +1,70 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DEAD_X	hw10.h	/^const short DEAD_X = -1;$/;"	v
+DEAD_Y	hw10.h	/^const short DEAD_Y = -1;$/;"	v
+EMPTY	sea.h	/^const char EMPTY = '^';$/;"	v
+FISH_H	fish.h	7;"	d
+HW10_H	hw10.h	7;"	d
+MAX_FISH	hw10.h	/^const short MAX_FISH = 200;$/;"	v
+MAX_NUM_FOOD	fish.h	/^const short MAX_NUM_FOOD = 1;$/;"	v
+MAX_PENGUINS	hw10.h	/^const short MAX_PENGUINS = 50;$/;"	v
+MAX_SIZE	sea.h	/^const short MAX_SIZE = 25;$/;"	v
+MAX_WHALES	hw10.h	/^const short MAX_WHALES = 2;$/;"	v
+MIN_NUM_FOOD	fish.h	/^const short MIN_NUM_FOOD = 10;$/;"	v
+PENG_H	penguin.h	8;"	d
+SEA_H	sea.h	7;"	d
+WHALE_H	killer_whale.h	7;"	d
+fish	fish.h	/^    fish():m_dead(0){m_food = 1 + (rand() % 10);}$/;"	f	class:fish
+fish	fish.h	/^class fish$/;"	c
+getID	fish.cpp	/^char fish::getID() const$/;"	f	class:fish
+getID	killer_whale.cpp	/^char killer_whale::getID() const$/;"	f	class:killer_whale
+getID	penguin.cpp	/^char penguin::getID() const$/;"	f	class:penguin
+getSize	sea.h	/^    short getSize(){return m_size;}$/;"	f	class:sea
+getX	fish.cpp	/^short fish::getX() const$/;"	f	class:fish
+getX	killer_whale.cpp	/^short killer_whale::getX() const$/;"	f	class:killer_whale
+getX	penguin.cpp	/^short penguin::getX() const$/;"	f	class:penguin
+getY	fish.cpp	/^short fish::getY() const$/;"	f	class:fish
+getY	killer_whale.cpp	/^short killer_whale::getY() const$/;"	f	class:killer_whale
+getY	penguin.cpp	/^short penguin::getY() const$/;"	f	class:penguin
+isFull	sea.cpp	/^bool sea::isFull(const loc l)$/;"	f	class:sea
+killer_whale	killer_whale.h	/^    killer_whale():m_penguinsEaten(0){}$/;"	f	class:killer_whale
+killer_whale	killer_whale.h	/^class killer_whale$/;"	c
+loc	hw10.h	/^  loc():m_x(DEAD_X), m_y(DEAD_Y){}$/;"	f	struct:loc
+loc	hw10.h	/^  loc(const short x, const short y):m_x(x), m_y(y){}$/;"	f	struct:loc
+loc	hw10.h	/^struct loc$/;"	s
+m_charID	fish.cpp	/^const char fish::m_charID = 'F';$/;"	m	class:fish	file:
+m_charID	fish.h	/^    static const char m_charID;$/;"	m	class:fish
+m_charID	killer_whale.cpp	/^const char killer_whale::m_charID = 'K';$/;"	m	class:killer_whale	file:
+m_charID	killer_whale.h	/^    static const char m_charID;$/;"	m	class:killer_whale
+m_charID	penguin.cpp	/^const char penguin::m_charID = 'P';$/;"	m	class:penguin	file:
+m_charID	penguin.h	/^    static const char m_charID;$/;"	m	class:penguin
+m_dead	fish.h	/^    bool m_dead;$/;"	m	class:fish
+m_dead	penguin.h	/^    bool m_dead;$/;"	m	class:penguin
+m_food	fish.h	/^    short m_food;$/;"	m	class:fish
+m_health	penguin.h	/^    short m_health;$/;"	m	class:penguin
+m_loc	fish.h	/^    loc m_loc;$/;"	m	class:fish
+m_loc	killer_whale.h	/^    loc m_loc;$/;"	m	class:killer_whale
+m_loc	penguin.h	/^    loc m_loc;$/;"	m	class:penguin
+m_penguinsEaten	killer_whale.h	/^    int m_penguinsEaten;$/;"	m	class:killer_whale
+m_size	sea.h	/^    short m_size;$/;"	m	class:sea
+m_theSea	sea.h	/^    char m_theSea[MAX_SIZE][MAX_SIZE];$/;"	m	class:sea
+m_x	hw10.h	/^  short m_x;$/;"	m	struct:loc
+m_y	hw10.h	/^  short m_y;$/;"	m	struct:loc
+main	hw10.cpp	/^int main()$/;"	f
+move	fish.cpp	/^void fish::move()$/;"	f	class:fish
+move	killer_whale.cpp	/^void killer_whale::move()$/;"	f	class:killer_whale
+move	penguin.cpp	/^void penguin::move()$/;"	f	class:penguin
+operator <<	sea.cpp	/^ostream& operator <<(ostream& os, const sea& s)$/;"	f
+penguin	penguin.h	/^    penguin():m_dead(0){}$/;"	f	class:penguin
+penguin	penguin.h	/^class penguin$/;"	c
+sea	sea.cpp	/^sea::sea()$/;"	f	class:sea
+sea	sea.cpp	/^sea::sea(const short s)$/;"	f	class:sea
+sea	sea.h	/^class sea$/;"	c
+set	hw10.h	/^  void set(const short x, const short y){m_x = x; m_y = y;}$/;"	f	struct:loc
+setPos	sea.cpp	/^bool sea::setPos(const fish& f)$/;"	f	class:sea
+setPos	sea.cpp	/^bool sea::setPos(const killer_whale& k)$/;"	f	class:sea
+setPos	sea.cpp	/^bool sea::setPos(const penguin& p)$/;"	f	class:sea

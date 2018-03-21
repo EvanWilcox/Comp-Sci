@@ -1,0 +1,14 @@
+// Progmramer: Evan Wilcox
+// Section: E
+// File: Assingment 1
+// Description: Printing a text on screen
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  cout << "Hello World!" << endl;
+  cout << "My name is Evan!" << endl;
+  return 0;
+}        

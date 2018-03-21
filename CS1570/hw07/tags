@@ -1,0 +1,57 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CATEGORY0	penguins.h	/^const int CATEGORY0 = 0;$/;"	v	language:C++
+CATEGORY0_MAX	penguins.h	/^const float CATEGORY0_MAX = 4.00;$/;"	v	language:C++
+CATEGORY0_MIN	penguins.h	/^const float CATEGORY0_MIN = 1.00;$/;"	v	language:C++
+CATEGORY1	penguins.h	/^const int CATEGORY1 = 1;$/;"	v	language:C++
+CATEGORY1_MAX	penguins.h	/^const float CATEGORY1_MAX = 6.00;$/;"	v	language:C++
+CATEGORY1_MIN	penguins.h	/^const float CATEGORY1_MIN = 4.00;$/;"	v	language:C++
+CATEGORY2	penguins.h	/^const int CATEGORY2 = 2;$/;"	v	language:C++
+CATEGORY2_MAX	penguins.h	/^const float CATEGORY2_MAX = 8.00;$/;"	v	language:C++
+CATEGORY2_MIN	penguins.h	/^const float CATEGORY2_MIN = 6.00;$/;"	v	language:C++
+CATEGORY3	penguins.h	/^const int CATEGORY3 = 3;$/;"	v	language:C++
+CATEGORY3_MAX	penguins.h	/^const float CATEGORY3_MAX = 10.00;$/;"	v	language:C++
+CATEGORY3_MIN	penguins.h	/^const float CATEGORY3_MIN = 8.00;$/;"	v	language:C++
+EXTROVERSION_MAX	penguins.h	/^const float EXTROVERSION_MAX = 5.00;$/;"	v	language:C++
+EXTROVERSION_MIN	penguins.h	/^const float EXTROVERSION_MIN = -5.00;$/;"	v	language:C++
+MAX_NUM_BREEDERS	penguins.h	/^const int MAX_NUM_BREEDERS = NUM_PENGUINS * 0.1;$/;"	v	language:C++
+NAMES	penguins.h	/^const string NAMES[NUM_PENGUINS] = {"Abigail", "Addison", "Aiden", "Alexander", $/;"	v	language:C++
+NEUROTICISM_MAX	penguins.h	/^const float NEUROTICISM_MAX = 10.00;$/;"	v	language:C++
+NEUROTICISM_MIN	penguins.h	/^const float NEUROTICISM_MIN = 1.00;$/;"	v	language:C++
+NUM_CATEGORIES	penguins.h	/^const int NUM_CATEGORIES = 4;$/;"	v	language:C++
+NUM_PENGUINS	penguins.h	/^const int NUM_PENGUINS = 50;$/;"	v	language:C++
+PENGUINS_H	penguins.h	7;"	d	language:C++
+Penguin	penguins.h	/^struct Penguin$/;"	s	language:C++
+Personality	penguins.h	/^struct Personality$/;"	s	language:C++
+Physique	penguins.h	/^struct Physique$/;"	s	language:C++
+SUPER_PENG_NAME	penguins.h	/^const string SUPER_PENG_NAME = "Jerry";$/;"	v	language:C++
+WEIGHT_MAX	penguins.h	/^const int WEIGHT_MAX = 20;$/;"	v	language:C++
+WEIGHT_MIN	penguins.h	/^const int WEIGHT_MIN = 4;$/;"	v	language:C++
+WEIGHT_MULTIPLIER	penguins.h	/^const float WEIGHT_MULTIPLIER = 0.6;$/;"	v	language:C++
+WINGSPAN_MAX	penguins.h	/^const int WINGSPAN_MAX = 24;$/;"	v	language:C++
+WINGSPAN_MIN	penguins.h	/^const int WINGSPAN_MIN = 4;$/;"	v	language:C++
+WINGSPAN_MULTIPLIER	penguins.h	/^const float WINGSPAN_MULTIPLIER = 1.7;$/;"	v	language:C++
+get_neuroticism_array	penguinsFunctions.cpp	/^void get_neuroticism_array(const Penguin dataArray[], float copyArray[])$/;"	f	language:C++	signature:(const Penguin dataArray[], float copyArray[])
+get_superPenguin	penguinsFunctions.cpp	/^Penguin get_superPenguin(const Penguin breeders[], const int numBreeders)$/;"	f	language:C++	signature:(const Penguin breeders[], const int numBreeders)
+get_wingSpan_array	penguinsFunctions.cpp	/^void get_wingSpan_array(const Penguin dataArray[], int copyArray[])$/;"	f	language:C++	signature:(const Penguin dataArray[], int copyArray[])
+m_extroversion	penguins.h	/^  float m_extroversion;$/;"	m	language:C++	struct:Personality
+m_name	penguins.h	/^  string m_name;$/;"	m	language:C++	struct:Penguin
+m_neuroticism	penguins.h	/^  float m_neuroticism;$/;"	m	language:C++	struct:Personality
+m_personality	penguins.h	/^  Personality m_personality;$/;"	m	language:C++	struct:Penguin
+m_physique	penguins.h	/^  Physique m_physique;$/;"	m	language:C++	struct:Penguin
+m_weight	penguins.h	/^  int m_weight;$/;"	m	language:C++	struct:Physique
+m_wingSpan	penguins.h	/^  int m_wingSpan; $/;"	m	language:C++	struct:Physique
+main	penguins.cpp	/^int main()$/;"	f	language:C++	signature:()
+print_penguin	penguinsFunctions.cpp	/^void print_penguin(const Penguin p)$/;"	f	language:C++	signature:(const Penguin p)
+print_penguins	penguinsFunctions.cpp	/^void print_penguins(const Penguin p[])$/;"	f	language:C++	signature:(const Penguin p[])
+rand_extroversion	penguinsFunctions.cpp	/^float rand_extroversion()$/;"	f	language:C++	signature:()
+rand_neuroticism	penguinsFunctions.cpp	/^float rand_neuroticism()$/;"	f	language:C++	signature:()
+rand_weight	penguinsFunctions.cpp	/^int rand_weight()$/;"	f	language:C++	signature:()
+rand_wingSpan	penguinsFunctions.cpp	/^int rand_wingSpan()$/;"	f	language:C++	signature:()
+randomize_penguins	penguinsFunctions.cpp	/^void randomize_penguins(Penguin p[])$/;"	f	language:C++	signature:(Penguin p[])
+sort	penguinsFunctions.cpp	/^void sort(float dataArray[], int indexArray[], const int start)$/;"	f	language:C++	signature:(float dataArray[], int indexArray[], const int start)
+sort	penguinsFunctions.cpp	/^void sort(int dataArray[], int indexArray[], const int start)$/;"	f	language:C++	signature:(int dataArray[], int indexArray[], const int start)

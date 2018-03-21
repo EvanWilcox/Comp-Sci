@@ -1,0 +1,11 @@
+Script started on Mon 02 Oct 2017 01:40:35 PM CDT
+g++ -Wall -W -s -pedantic-errors *.cpp -o 53drv && ./53drv && rm ./53drv
+[01m[KhealthMenu.cpp:59:9:[m[K [01;31m[Kerror: [m[K'[01m[KintnumOfPills[m[K' does not name a type
+   const intnumOfPills);
+[01;32m[K         ^[m[K
+[01m[KhealthMenu.cpp:[m[K In function '[01m[Kint getNumOfLegs()[m[K':
+[01m[KhealthMenu.cpp:186:18:[m[K [01;35m[Kwarning: [m[Klogical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+   } while((!legs > 0));
+[01;32m[K                  ^[m[K
+Makefile.1570:9: recipe for target 'run' failed
+make: *** [run] Error 1
