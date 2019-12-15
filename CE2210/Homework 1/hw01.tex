@@ -1,0 +1,140 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{blindtext}
+\graphicspath{ {./images/} }
+    
+\title{CE2210 Homework 1}
+\author{Evan Wilcox}
+\setlength\parindent{0pt}
+    
+\date{Due Feburary 11, 2019}
+    
+\begin{document}
+    \maketitle
+
+    \begin{enumerate}
+        
+        \item
+        \begin{tabular}{ |c|c| }
+        \hline
+        \textbf{Digital} & \textbf{Analog}\\
+        \hline
+        Computer & Wrist Watch\\
+        \hline
+        Smart Phone & Joystick\\
+        \hline
+        Keyboard & Thermostat\\
+        \hline
+        \end{tabular}
+
+
+        \item
+        \begin{enumerate}[label=\alph*)]
+            
+            \item $2^{2} = 4$
+
+            \item $2^{4} = 16$
+
+            \item $2^{6} = 64$
+        
+        \end{enumerate}
+
+
+
+        \item
+        \begin{enumerate}[label=\alph*)]
+            
+            \item 67,108,864 bits
+
+            \item 8,388,608 bits
+
+            \item 524,288 bits
+        
+            \item 1,048,576 bits
+
+        \end{enumerate}
+
+        \item This representation sets 000 to North moving clockwise around the 
+        compass incrementing by 1 for each direction. In order to include NNW, NNE, 
+        SSW and SSE a 4-bit word would need to be used because it doubles the 
+        amount of possible directions.\\
+        \begin{tabular}{ c|c }
+            Direction & Binary\\
+            \hline
+            N  & 000\\
+            NE & 001\\
+            E  & 010\\
+            SE & 011\\
+            S  & 100\\
+            SW & 101\\
+            W  & 110\\
+            NW & 111\\
+
+
+        \end{tabular}
+
+
+        \item
+        \begin{enumerate}[label=\alph*)]
+            
+            \item $101111_{2} = 47_{10}$
+
+            \item $011000_{2} = 24_{10}$
+
+            \item $111011_{2} = 59_{10}$
+        
+            \item $011101_{2} = 29_{10}$
+
+        \end{enumerate}
+
+        \item
+        \begin{enumerate}[label=\alph*)]
+            
+            \item $01110100_{2} = 116_{10}$
+
+            \item $11001001_{2} = 201_{10}$
+
+            \item $10000010_{2} = 130_{10}$
+
+        \end{enumerate}
+
+        \newpage
+        
+        \item
+        \begin{enumerate}[label=\alph*)]
+            
+            \item $125_{10} = 1111101_{2}$
+
+            \item $153_{10} = 10011001_{2}$
+
+            \item $212_{10} = 11010100_{2}$
+
+        \end{enumerate}
+
+        \item
+        \begin{enumerate}[label=\alph*)]
+            
+            \item 1FB1$_{16} = $0001 1111 1011 0001$_2 = 8,113_{10}$
+
+            \item 0ACC$_{16} = $0000 1010 1100 1100$_2 = 2,764_{10}$
+
+            \item 71F2$_{16} = $0111 0001 1111 0010$_2 = 29,170_{10}$
+        
+            \item 70BA$_{16} = $0111 0000 1011 1010$_2 = 28,858_{10}$
+
+        \end{enumerate}
+
+        \item
+        A 14 bit word is necessary to represent $9999_{10}$ in binary.
+
+    \end{enumerate}
+
+
+
+
+
+\end{document}

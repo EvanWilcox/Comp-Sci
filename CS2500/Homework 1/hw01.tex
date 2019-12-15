@@ -1,0 +1,125 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{blindtext}
+\graphicspath{ {./images/} }
+    
+\title{CS2500 Homework 1}
+\author{Evan Wilcox}
+\setlength\parindent{0pt}
+    
+\date{Due January 31, 2019}
+    
+\begin{document}
+    \maketitle
+
+    \textbf{1.1-4}\\
+    Both algorithms are trying to find the most efficient path for the situation 
+    but the traveling-salesman starts and ends at the same location and the 
+    shortest-path ends at a different location than it starts. \\
+    
+    \textbf{1.1-5}\\
+    Sorting is a problem that only the best solution will do because something that 
+    is mostly sorted won't work. Finding the fastest path between two places in a city 
+    is an example of a problem that an "approximate" is good enough because even if its
+    not the fastest it will sill get you there.\\
+    
+    \textbf{1.2-2}\\
+    Insertion sort out performs Merge sort when n = [2, 43].\\
+
+    \textbf{1-1}\\
+    
+    \begin{tabular}{ c|c|c|c|c|c|c|c| }
+        
+         & 1 second & 1 minute & 1 hour & 1 day & 1 month & 1 year & 1 century\\
+        \hline
+        lg$n$ & $9.9$x$10^{301029}$ & $5.5$x$10^{18061799}$ & $2.5$x$10^{1083707984}$ &  &  &  & \\
+        \hline
+        $\sqrt{n}$ & $1$x$10^{12}$ & $3.6$x$10^{15}$ & $1.3$x$10^{19}$ & $7.5$x$10^{21}$ & $6.7$x$10^{24}$ & $9.6$x$10^{27}$ & $9.96$x$10^{30}$\\
+        \hline
+        $n$ & $1$x$10^{6}$ & $6$x$10^{7}$ & $3.6$x$10^{9}$ & $8.6$x$10^{10}$ & $2.6$x$10^{12}$ & $3.1$x$10^{13}$ & $3.1$x$10^{15}$\\
+        \hline
+        $n$lg$n$ & $6.3$x$10^{4}$ & $2.6$x$10^{6}$ & $1.3$x$10^{8}$ & $6.8$x$10^{8}$ & $7.2$x$10^{10}$ & $7.9$x$10^{11}$ & $6.8$x$10^{13}$\\
+        \hline
+        $n^{2}$ & $1$x$10^{3}$ & $7.7$x$10^{3}$ & $6$x$10^{4}$ & $2.9$x$10^{5}$ & $1.6$x$10^{6}$ & $5.6$x$10^{6}$ & $5.6$x$10^{7}$\\
+        \hline
+        $n^{3}$ & $1$x$10^{2}$ & $3.9$x$10^{2}$ & $1.5$x$10^{3}$ & $4.4$x$10^{3}$ & $1.4$x$10^{4}$ & $3.1$x$10^{4}$ & $1.5$x$10^{5}$\\
+        \hline
+        $2^{n}$ & 19 & 25 & 31 & 36 & 41 & 44 & 51\\
+        \hline
+        $n!$ & 9 & 11 & 12 & 13 & 15 & 16 & 17\\
+        \hline
+
+    \end{tabular}\\
+    
+    \vspace{0.75cm}
+
+    \textbf{2.1-3}
+    \begin{verbatim}
+linearSearch(A, v)
+1  for j = 1 to A.length:
+2      if A[j] == v:
+3          return j
+    \end{verbatim}
+
+    At the start of each iteration of the for loop, the subarray $A[1...j-1]$
+    consists of elements that are not equal to $v$.\\
+
+    \newpage
+
+    \textbf{2-2}
+
+    \begin{enumerate}[label=\alph*)]
+        \item We need to prove that for any input it has the same output every time it is run.
+        
+        \item At the start of each iteration of the for loop, the subarray 
+        $A[j+1...A.length-1]$ consists of elements that are greater that $A[j]$.
+
+        \begin{itemize}[itemindent=5em]
+
+            \item[\textbf{Initialization:}] We start by showing that the loop invariant 
+            holds before the first loop iteration, when $j = A.length$. The subarray, 
+            therefore, consists of no elemets. This subarray shows that the loop invariant 
+            holds prior to the first iteration of the loop.
+
+            \item[\textbf{Maintenance:}] 
+            The program checks if $A[j] < A[j-1]$ and swaps them if so. Essentially, moving 
+            numbers greater than $A[j]$ to the right of it so the only numbers right of 
+            $A[j]$ are greater than it. This holds true with the loop invariant.
+            
+            \item[\textbf{Termination:}] 
+            The condition causing the for loop to terminate is that $j < i+1$. Because
+            each loop iteration decreases $j$ by 1, we must have $j = i - 1$ at that time.
+            Substituting $i - 1$ for $j$ in the wording of loop invariant, we have that the
+            subarray $A[i...A.length-1]$ consists of the elements greater than A[i]. 
+            
+             
+        \end{itemize}
+
+        \item At the start of each iteration of the for loop, the subarray 
+        $A[1...i-1]$ consists of sorted elements.
+
+        \begin{itemize}[itemindent=5em]
+            
+            \item[\textbf{Initialization:}] We start by showing that the loop invariant 
+            holds before the first loop iteration, when $i = 1$. The subarry is an empty
+            array so it is sorted.
+
+            \item[\textbf{Maintenance:}] 
+            The program increments $i$ in order to begin sorting the next element.
+            
+            \item[\textbf{Termination:}] 
+            The condition causing the for loop to terminate is that $i > A.length-1$. Because
+            each loop iteration increase $i$ by 1, we must have $i = n + 1$ at that time.
+            Substituting $n + 1$ for $i$ in the wording of loop invariant, we have that the
+            subarray $A[1...n$ consists of the sorted elements.
+            
+             
+        \end{itemize}
+
+    \end{enumerate}
+
+\end{document}

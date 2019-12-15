@@ -1,0 +1,46 @@
+.PHONY: default coverage test cleancoverage clean
+CFLAGS = -std=c++11
+TESTFLAGS = --coverage -std=c++11
+
+### Actual Program
+#default: program
+
+program: main.o
+	g++ ${CFLAGS} main.o -o list
+
+#list.o: list.hpp list.h
+	#g++ -c list.hpp
+
+main.o: main.cpp list.h list.hpp
+	g++ ${CFLAGS} -c main.cpp
+
+
+
+
+### Test Suite
+
+# Generates coverage reports
+coverage: test
+	gcov -mr test_vector.cpp
+
+# Builds and runs tests
+test: CFLAGS=${TESTFLAGS}
+test: testsuite
+	@./testsuite
+
+testsuite: test_main.o test_vector.o
+	g++ ${CFLAGS} $^ -o testsuite
+
+test_vector.o: test_vector.cpp vector.h vector.hpp
+	g++ ${CFLAGS} -c test_vector.cpp
+
+test_main.o: test_main.cpp
+	g++ ${CFLAGS} -c test_main.cpp
+
+cleancoverage:
+	-@rm -f *.gcov *.gcno *.gcda
+
+clean: cleancoverage
+	-@rm -f *.o
+	-@rm -f testsuite
+	-@rm -f average

@@ -1,0 +1,68 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{blindtext}
+
+\graphicspath{ {./images/} }
+\setlength\parindent{0pt}
+    
+\title{CE2210, Sec. 3 \\Homework 5}
+\author{Evan Wilcox}
+\date{Due April 12, 2019}
+    
+\begin{document}
+    \maketitle
+
+    \begin{enumerate}
+        
+      \item  The Set and Reset signals shown below are applied to a NOR-based SR 
+      latch. Draw the output waveform $Q(t)$. Assume $Q(t)$ is initially 1. \\
+      \vspace{3.5cm}
+    
+      \item  The signals shown below are applied to a clocked NOR-based SR latch. 
+      Draw the output waveform. Assume $Q(t)$ is initially 1. \\
+      \vspace{3.5cm}
+      
+      \item The data signal $D(t)$ shown below is applied to the input of a positive 
+      edge-triggered DFF. Draw the output $Q(t)$ for the device. \\
+
+      \newpage
+      \item Redo the previous problem for the case where $D(t)$ is applied to the input 
+      of a negative edge-triggered DFF. \\
+      \vspace{3.5cm}
+    
+      \item Consider the NAND-based SR latch. What are the outputs, $Q$ and $\bar{Q}$, 
+      when both $S = 0$ and $R = 0$? Why is this “not used” case? \\
+
+      When $S = 0$ and $R = 0$ the relationship between $Q$ and $\bar{Q}$ would be 
+      wrong because they both would be 1. \\
+
+    
+      \item An 8-bit shift register has the binary equivalent of the decimal number 
+      46 stored in it. What are the base-10 equivalent contents of the register 
+      after the following operations have been performed? \\
+
+      $46_{10}$ = 0010 $1110_{2}$
+
+      \begin{enumerate}
+        
+        \item SHR 1 = 0001 $0111_{2}$
+  
+      
+        \item SHL 1 = 0101 $1100_{2}$
+  
+      
+        \item SHR 2 = 0000 $1011_{2}$
+  
+      
+        \item ROR 2 = 1000 $1011_{2}$
+
+  
+      \end{enumerate}
+
+    \end{enumerate}
+
+\end{document}

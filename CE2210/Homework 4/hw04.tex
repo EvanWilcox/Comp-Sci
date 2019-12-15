@@ -1,0 +1,132 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{blindtext}
+
+\graphicspath{ {./images/} }
+\setlength\parindent{0pt}
+    
+\title{CE2210, Sec. B \\Homework 4}
+\author{Evan Wilcox}
+\date{Due March 22, 2019}
+    
+\begin{document}
+    \maketitle
+
+    \begin{enumerate}
+        
+        \item
+        \begin{enumerate}
+
+            \item
+            
+
+            \item \vspace{4cm}$\frac{1}{0.25(0.8) + 0.5(0.8)}$ = 1.66HZ
+
+
+            \item 
+            \vspace{4cm}
+
+        \end{enumerate}
+        \vspace{4cm}
+
+        \item t$_{pO, NAND}$ + 2(t$_{pL, NAND}) + $t$_{pO, NOR} + 2$(t$_{pL, NOR})$ + t$_{pO, NOR}$ \\
+        0.85 + 2(0.95) + 0.75 + 2(0.9) + 0.85 = 6.15ns
+
+        \newpage
+        \item Construct 4:1 MUX using only 2:1 MUXs as the main building blocks.
+
+        \vspace{10cm}
+        \item Use an 8:1 MUX to implement the function: $Q=ab+b\bar{c}$ \\
+        
+        \newpage
+        \item 
+        \begin{enumerate}
+            
+            \item 1100 0110 + 0100 1100 \\
+            \begin{tabular}{ c r }
+                  & $_{1}$$_{1}$ $_{1}$ $\:$$_{1}$\phantom{spa} \\ 
+                  & 1100 0110\\  
+                + & 0100 1100\\ \hline
+                1 & 0101 0010
+            \end{tabular} \\
+
+            \item 1101 0000 + 1010 1010 \\
+            \begin{tabular}{ c r }
+                & 1101 0000\\  
+              + & 1010 1010\\ \hline
+              1 & 0111 1010
+          \end{tabular} \\
+        
+        \end{enumerate}
+
+        \item
+        \begin{enumerate}
+
+            
+            \item 15 - 6 = 15 + (-6) \\ 
+            $6_{10} = 0110_{2}$ \\
+            2's compliment of 0110: 1010 \\
+            \begin{tabular}{ c l }
+                & $_{1}$$_{1}$ \\
+                & 1111 \\  
+              + & 1010 \\ \hline
+              1 & 1001 \\
+            \end{tabular} \\
+
+            $1001_{2} = 9_{10}$ \\
+
+            \item 196 - 114 = 196 + (-114) \\
+            $114_{10} = 0111 0010_{2}$ \\
+            2's compliment of 0110: 1000 1110 \\
+            \begin{tabular}{ c l }
+                & $\:\:\:\:\:\:$ $_{1}$ $_{1}$ \\
+                & 1100 0100 \\  
+              + & 1000 1110 \\ \hline
+              1 & 0101 0010 \\
+            \end{tabular} \\
+
+            0101 0010$_{2} = 82_{10}$ \\
+
+        \end{enumerate}
+
+        \item 
+        \begin{enumerate}
+            
+            \item 1011 x 1011 \\
+            \begin{tabular}{ c r }
+                & 1011 \\  
+              x & 1011 \\ \hline
+                & 1011 \\
+                & 1011\phantom{0} \\
+                & 0000\phantom{00} \\
+                & 1011\phantom{000} \\ \hline
+                & 1111001
+            \end{tabular} \\
+
+            \item 1110 x 0110 \\
+            \begin{tabular}{ c r }
+                & 1110 \\  
+              x & 0110 \\ \hline
+                & 0000 \\ 
+                & 1110\phantom{0} \\
+                & 1110\phantom{00} \\
+                & 0000\phantom{000} \\ \hline
+                & 1010100 \\
+            \end{tabular} \\
+    
+        \end{enumerate}
+
+        \newpage
+        \item Design a transmission gate network that implements the function 
+        $$F=x\bar{y} + \bar{x}y$$
+
+    \end{enumerate}
+
+
+
+
+\end{document}

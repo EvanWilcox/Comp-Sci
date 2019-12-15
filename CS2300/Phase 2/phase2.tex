@@ -1,0 +1,79 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+    
+\title{CS2300 Project Phase 2}
+\author{Andrew Henningsen \& Evan Wilcox}
+\setlength\parindent{0pt}
+    
+\date{\today}
+    
+\begin{document}
+    \maketitle
+    
+    \section{Revised Problem Statement}
+    The Overwatch League is a professional esports league for the game of Overwatch developed by and for Blizzard Entertainment.
+    Twelve different teams compete in the Pacific and Atlantic Divisions to make it into the playoffs to win a Grand Prize of \$1,000,000.
+    Keeping track of all the different players and teams is a difficult task, especially when players are traded or dropped or teams get eliminated 
+    from competing. Fans often desire a way to compare different players or in the case that they miss a match, they can view a recap on the go.
+    \section{Revised conceptual database design}
+    Our database consists of storing information of various different entities: \\
+
+    The "Person" Entity consists of a unique identifying id, a name, and a handle. \\
+
+    There are three different types of "Person", One of which is a "Player". This entity contains a role, a number, a location that they are from,
+    and a link to a picture. In addition, a Player can play on many different teams, either the standard twelve teams, or teams for a specific country.    
+    
+    The second type is "Personnel", casters/personnel play an integral part in the Overwatch e
+    \section{Logical database design}
+
+    Team\\
+    \begin{tabular}{ |c|c|c|c| }
+        \hline
+        \underline{id} & name & division & picture\\
+        \hline
+    \end{tabular}
+
+    \vspace{0.5cm}
+
+    Player\\
+    \begin{tabular}{ |c|c|c|c|c|c|c| }
+        \hline
+        \underline{id} & handle & name & location & no & role & picture\\
+        \hline
+    \end{tabular}
+
+    \vspace{0.5cm}
+
+    PlayerTeam\\
+    \begin{tabular}{ |c|c| }
+        \hline
+        \underline{playerid} & \underline{teamid}\\
+        \hline
+    \end{tabular}
+
+    \vspace{0.5cm}
+
+    Match\\
+    \begin{tabular}{ |c|c|c|c|c|c| }
+        \hline
+        \underline{id} & time & score & team1 & team2 & winner\\
+        \hline
+    \end{tabular}
+
+    \vspace{0.5cm}
+
+    Map Instance\\
+    \begin{tabular}{ |c|c|c|c|c| }
+        \hline
+        \underline{matchid} & \underline{number} & name & time & score\\
+        \hline
+    \end{tabular}
+
+    \section{Application program design}
+
+    \section{User interface design}
+\end{document}

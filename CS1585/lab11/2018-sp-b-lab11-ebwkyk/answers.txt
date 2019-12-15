@@ -1,0 +1,12 @@
+Evan Wilcox
+CS1585 Lab11
+
+1. 
+  ^#
+  ^\s+#
+
+2. 
+  sed -r /[AEIOUaeiou]/
+
+3. 
+  

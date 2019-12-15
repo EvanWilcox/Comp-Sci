@@ -1,0 +1,396 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.4)  19 MAR 2019 01:34
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/Evan/Documents/MST/CS2500/Project 2/latex/proj2.tex"
+(c:/Users/Evan/Documents/MST/CS2500/Project 2/latex/proj2.tex
+LaTeX2e <2018-04-01> patch level 5
+(c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/09/02 3.23 The Babel package
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/09/02 3.23 Babel switching mechanism
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/09/02 3.23 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count89
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip43
+\enit@outerparindent=\dimen106
+\enit@toks=\toks17
+\enit@inbox=\box26
+\enitdp@description=\count90
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count91
+\c@Blindtext=\count92
+\c@blind@countparstart=\count93
+\blind@countxx=\count94
+\blindtext@numBlindtext=\count95
+\blind@countyy=\count96
+\c@blindlist=\count97
+\c@blindlistlevel=\count98
+\c@blindlist@level=\count99
+\blind@listitem=\count100
+\c@blind@listcount=\count101
+\c@blind@levelcount=\count102
+\blind@mathformula=\count103
+\blind@Mathformula=\count104
+\c@blind@randomcount=\count105
+\c@blind@randommax=\count106
+\c@blind@pangramcount=\count107
+\c@blind@pangrammax=\count108
+) (c:/Users/Evan/Documents/MST/CS2500/Project 2/latex/proj2.aux)
+\openout1 = `proj2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count109
+\scratchdimen=\dimen107
+\scratchbox=\box27
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen108
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks19
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 20.
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--44
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 46.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 46.
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--49
+
+ []
+
+[1
+
+{c:/Program Files (x86)/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 89--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--113
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 115--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--160
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+
+Overfull \hbox (75.09108pt too wide) in paragraph at lines 174--184
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--190
+
+ []
+
+<./images/Average.png, id=20, 611.886pt x 323.40825pt>
+File: ./images/Average.png Graphic file (type png)
+<use ./images/Average.png>
+Package pdftex.def Info: ./images/Average.png  used on input line 191.
+(pdftex.def)             Requested size: 397.72118pt x 210.21286pt.
+
+Overfull \hbox (52.72118pt too wide) in paragraph at lines 191--192
+ [] 
+ []
+
+[4 <./images/Average.PNG>]
+<./images/Best.png, id=26, 614.89725pt x 317.38576pt>
+File: ./images/Best.png Graphic file (type png)
+<use ./images/Best.png>
+Package pdftex.def Info: ./images/Best.png  used on input line 206.
+(pdftex.def)             Requested size: 399.67848pt x 206.2983pt.
+
+Overfull \hbox (54.67848pt too wide) in paragraph at lines 206--207
+ [] 
+ []
+
+<./images/Worst.png, id=27, 604.659pt x 318.59026pt>
+File: ./images/Worst.png Graphic file (type png)
+<use ./images/Worst.png>
+Package pdftex.def Info: ./images/Worst.png  used on input line 217.
+(pdftex.def)             Requested size: 393.02368pt x 207.0812pt.
+
+Overfull \hbox (48.02368pt too wide) in paragraph at lines 217--218
+ [] 
+ []
+
+[5 <./images/Best.PNG>] [6 <./images/Worst.PNG>]
+Overfull \hbox (69.74638pt too wide) in paragraph at lines 881--881
+[]    \OT1/cmtt/m/n/10 // @post   true is returned if the subarry arr[l..r] is in increasing order[] 
+ []
+
+[7]
+Overfull \hbox (64.49643pt too wide) in paragraph at lines 881--881
+[]    \OT1/cmtt/m/n/10 // @pre    the subarrays arr[l..m] and arr[m+1..r] are in increasing order[] 
+ []
+
+
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 881--881
+[]    \OT1/cmtt/m/n/10 // @param  arr the array containing the subarrays to be sorted[] 
+ []
+
+
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 881--881
+[]    \OT1/cmtt/m/n/10 // @param  arr the array containing the subarry to be pratitioned[] 
+ []
+
+[8]
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 881--881
+[]    \OT1/cmtt/m/n/10 // @brief  recursive implementation of the quicksort algorithm[] 
+ []
+
+[9] [10] [11]
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 881--881
+[]  \OT1/cmtt/m/n/10 // loop precondition:  arrays L and R are in sorted increasing order[] 
+ []
+
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 881--881
+[]  \OT1/cmtt/m/n/10 //    initialization: before the loop k=l so the subarry arr[l..k][] 
+ []
+
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 881--881
+[]  \OT1/cmtt/m/n/10 //    maintenance: either an element from L or R gets moved to arr[] 
+ []
+
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 881--881
+[]  \OT1/cmtt/m/n/10 //                 and k increases each iteration so arr[l..k] still[] 
+ []
+
+
+Overfull \hbox (48.74657pt too wide) in paragraph at lines 881--881
+[]  \OT1/cmtt/m/n/10 //    termination: at termination k = r so the subarry arr[l..r] contains[] 
+ []
+
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 881--881
+[]  \OT1/cmtt/m/n/10 //                 the smallest elements from L and R at termination[] 
+ []
+
+[12] [13] [14] [15]
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 881--881
+[]  \OT1/cmtt/m/n/10 //    maintenance: the children of i are numbered higher than i,[] 
+ []
+
+
+Overfull \hbox (48.74657pt too wide) in paragraph at lines 881--881
+[]  \OT1/cmtt/m/n/10 //                 by the loop invariant they are both roots of max heaps[] 
+ []
+
+[16] [17]
+Overfull \hbox (90.7462pt too wide) in paragraph at lines 881--881
+[]  \OT1/cmtt/m/n/10 // Testing the algorithms with arrays of random integers to find average runtime.[] 
+ []
+
+
+Overfull \hbox (27.74675pt too wide) in paragraph at lines 881--881
+[]    \OT1/cmtt/m/n/10 cout << "MergeSort: " << (float)(clock()-t)/CLOCKS_PER_SEC << endl;[] 
+ []
+
+
+Overfull \hbox (27.74675pt too wide) in paragraph at lines 881--881
+[]    \OT1/cmtt/m/n/10 cout << "HeapSort:  " << (float)(clock()-t)/CLOCKS_PER_SEC << endl;[] 
+ []
+
+[18]
+Overfull \hbox (69.74638pt too wide) in paragraph at lines 881--881
+[]    \OT1/cmtt/m/n/10 cout << "QuickSort: " << (float)(clock()-t)/CLOCKS_PER_SEC << endl << endl;[] 
+ []
+
+
+Overfull \hbox (43.49661pt too wide) in paragraph at lines 881--881
+[]  \OT1/cmtt/m/n/10 // Testing the algorithms with sorted arrays to find best/worst runtime.[] 
+ []
+
+
+Overfull \hbox (27.74675pt too wide) in paragraph at lines 881--881
+[]    \OT1/cmtt/m/n/10 cout << "MergeSort: " << (float)(clock()-t)/CLOCKS_PER_SEC << endl;[] 
+ []
+
+
+Overfull \hbox (27.74675pt too wide) in paragraph at lines 881--881
+[]    \OT1/cmtt/m/n/10 cout << "HeapSort:  " << (float)(clock()-t)/CLOCKS_PER_SEC << endl;[] 
+ []
+
+
+Overfull \hbox (69.74638pt too wide) in paragraph at lines 881--881
+[]    \OT1/cmtt/m/n/10 cout << "QuickSort: " << (float)(clock()-t)/CLOCKS_PER_SEC << endl << endl;[] 
+ []
+
+[19] (c:/Users/Evan/Documents/MST/CS2500/Project 2/latex/proj2.aux) ) 
+Here is how much of TeX's memory you used:
+ 2442 strings out of 492642
+ 37383 string characters out of 6123637
+ 123177 words of memory out of 5000000
+ 6300 multiletter control sequences out of 15000+600000
+ 7756 words of font info for 28 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,7n,25p,325b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "c:/Users/Evan/Documents/MST/CS2500/Project 2/latex/proj2.pdf" (19 pages, 213850 bytes).
+PDF statistics:
+ 109 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+

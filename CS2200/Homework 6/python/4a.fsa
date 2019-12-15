@@ -1,0 +1,29 @@
+A 01
+K $01
+S 0, 1
+S 1, 0
+B 0
+D 0, 1, 2, 3, 4
+D 0, 1, 1, 0, 0
+D 1, 0, 0, 0, 0
+D 1, 1, 1, 0, 0
+T 
+O Accepted
+T 1
+O Accepted
+T 0
+O Accepted
+T 11
+O Accepted
+T 00
+O Accepted
+T 10
+O Accepted
+T 01
+O Accepted
+T 100101010100
+O Accepted
+T 0011001101001101
+O Accepted
+T 111111100000000110
+O Accepted 

@@ -1,0 +1,39 @@
+digraph finite_state_machine {
+   layout=circo
+   _ize="8,5"
+
+   node [shape = circle] 0000
+   node [shape = circle] 0001
+   node [shape = circle] 0010
+   node [shape = circle] 0011
+   node [shape = circle] 0100
+   node [shape = circle] 0101
+   node [shape = circle] 0110
+   node [shape = circle] 0111
+   node [shape = circle] 1000
+   node [shape = circle] 1001
+   node [shape = circle] 1010
+   node [shape = circle] 1011
+   node [shape = circle] 1100
+   node [shape = circle] 1101
+   node [shape = circle] 1110
+   node [shape = circle] 1111
+
+   0000 -> 0001 [label=""]
+   0001 -> 0010 [label=""]
+   0010 -> 0011 [label=""]
+   0011 -> 0100 [label=""]
+   0100 -> 0101 [label=""]
+   0101 -> 0110 [label=""]
+   0110 -> 0111 [label=""]
+   0111 -> 1000 [label=""]
+   1000 -> 1001 [label=""]
+   1001 -> 1010 [label=""]
+   1010 -> 1011 [label=""]
+   1011 -> 1100 [label=""]
+   1100 -> 1101 [label=""]
+   1101 -> 1110 [label=""]
+   1110 -> 1111 [label=""]
+   1111 -> 0000 [label=""]
+}
+

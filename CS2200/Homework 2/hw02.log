@@ -1,0 +1,237 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.4)  16 FEB 2019 21:58
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/Evan/Documents/MST/CS2200/Homework 2/hw02.tex"
+(c:/Users/Evan/Documents/MST/CS2200/Homework 2/hw02.tex
+LaTeX2e <2018-04-01> patch level 5
+(c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/09/02 3.23 The Babel package
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/09/02 3.23 Babel switching mechanism
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/09/02 3.23 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count89
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip43
+\enit@outerparindent=\dimen106
+\enit@toks=\toks17
+\enit@inbox=\box26
+\enitdp@description=\count90
+) (c:/Users/Evan/Documents/MST/CS2200/Homework 2/hw02.aux)
+\openout1 = `hw02.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count91
+\scratchdimen=\dimen107
+\scratchbox=\box27
+\nofMPsegments=\count92
+\nofMParguments=\count93
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count94
+\MPscratchDim=\dimen108
+\MPnumerator=\count95
+\makeMPintoPDFobject=\count96
+\everyMPtoPDFconversion=\toks19
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 21.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 21.
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
+
+ []
+
+<./images/1a.png, id=1, 174.05025pt x 74.679pt>
+File: ./images/1a.png Graphic file (type png)
+<use ./images/1a.png>
+Package pdftex.def Info: ./images/1a.png  used on input line 25.
+(pdftex.def)             Requested size: 104.43094pt x 44.80772pt.
+<./images/1b.png, id=3, 364.9635pt x 63.23625pt>
+File: ./images/1b.png Graphic file (type png)
+<use ./images/1b.png>
+Package pdftex.def Info: ./images/1b.png  used on input line 26.
+(pdftex.def)             Requested size: 218.97978pt x 37.94203pt.
+[1
+
+{c:/Program Files (x86)/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/1a.PNG> <./images/1b.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--73
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--129
+
+ []
+
+[4] (c:/Users/Evan/Documents/MST/CS2200/Homework 2/hw02.aux) ) 
+Here is how much of TeX's memory you used:
+ 2252 strings out of 492642
+ 34064 string characters out of 6123637
+ 110903 words of memory out of 5000000
+ 6121 multiletter control sequences out of 15000+600000
+ 6983 words of font info for 25 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,6n,25p,319b,225s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "c:/Users/Evan/Documents/MST/CS2200/Homework 2/hw02.pdf" (4 pages, 113472 bytes).
+PDF statistics:
+ 62 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,22 @@
+digraph finite_state_machine {
+   rankdir=LR;
+   _ize="8,5"
+
+   node [shape = point] x
+   node [shape = circle] Start
+   node [shape = doublecircle] b
+   node [shape = doublecircle] ba
+   node [shape = circle] bb
+   node [shape = circle] even
+
+   x -> Start
+   Start -> Start [label = "a"]
+   Start -> b [label = "b"]
+   b -> ba [label = "a"]
+   b -> bb [label = "b"]
+   ba -> ba [label = "a"]
+   ba -> even  [label = "b"]
+   even -> Start [label = "a"]
+   even -> bb  [label = "b"]
+   bb -> bb [label = "a, b"]
+}

@@ -1,0 +1,8 @@
+,Dollar (1.2),Peso (6),Pound (2),Euro (3),Franc (12)
+Dollar (1.2),0,1.5,0,2.5,0
+Peso (6),0,0,1.2,5.7,0
+Pound (2),2,0,0,0,0
+Euro (3),0.9,0,3,0,0
+Franc (12),0,0,0,15,0
+,,,,,
+What is the shortest path from Pesos to Euros?,,,,,

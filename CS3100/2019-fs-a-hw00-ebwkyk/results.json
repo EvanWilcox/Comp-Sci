@@ -1,0 +1,45 @@
+{
+    "grade": 100.0,
+    "tasks": [
+        {
+            "task_name": "user_has_made_commits",
+            "completed": true,
+            "msg": "Well done!"
+        },
+        {
+            "task_name": "user_has_created_issue_board",
+            "completed": true,
+            "msg": "Well done!"
+        },
+        {
+            "task_name": "user_has_create_merge_request",
+            "completed": true,
+            "msg": "Well done!"
+        },
+        {
+            "task_name": "user_has_completed_merge_request",
+            "completed": true,
+            "msg": "Well done!"
+        },
+        {
+            "task_name": "user_has_made_issue",
+            "completed": true,
+            "msg": "Well done!"
+        },
+        {
+            "task_name": "user_has_closed_issue",
+            "completed": true,
+            "msg": "Well done!"
+        },
+        {
+            "task_name": "user_has_fixed_client_issue",
+            "completed": true,
+            "msg": "Well done!"
+        },
+        {
+            "task_name": "bonus",
+            "completed": false,
+            "msg": "Bonus branch does not exist"
+        }
+    ]
+}

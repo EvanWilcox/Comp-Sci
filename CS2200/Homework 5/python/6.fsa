@@ -1,0 +1,40 @@
+A fg
+S 1, 1
+S 2, 0
+S 3, 0
+S 4, 1
+S 5, 1
+S 6, 0
+B 1
+D 1, f, 2
+D 1, g, 6
+D 2, f, 3
+D 2, g, 4
+D 3, f, 6
+D 3, g, 1
+D 4, f, 5
+D 4, g, 6
+D 5, f, 2
+D 5, g, 4
+D 6, f, 6
+D 6, g, 6
+T 
+O Accepted
+T f
+O Rejected
+T g
+O Rejected
+T fg
+O Accepted
+T ffg
+O Accepted
+T fgf
+O Accepted
+T ffggfgf
+O Rejected
+T fgfgf
+O Accepted
+T ffgfggfgf
+O Rejected
+T fgfgfffg
+O Accepted

@@ -1,0 +1,72 @@
+PWD c:/Users/Evan/Documents/MST/CS1200/HW03
+INPUT c:/Program Files (x86)/texlive/2018/texmf.cnf
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/web2c/texmf.cnf
+INPUT c:/Program Files (x86)/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/Evan/Documents/MST/CS1200/HW03/hw03.tex
+OUTPUT hw03.log
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/article.cls
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/article.cls
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT hw03.aux
+INPUT hw03.aux
+OUTPUT hw03.aux
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+OUTPUT hw03.pdf
+INPUT c:/Program Files (x86)/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./images/2a.PNG
+INPUT ./images/2a.PNG
+INPUT ./images/2a.PNG
+INPUT ./images/2b.PNG
+INPUT ./images/2b.PNG
+INPUT ./images/2b.PNG
+INPUT ./images/4d.jpg
+INPUT ./images/4d.jpg
+INPUT ./images/4d.jpg
+INPUT ./images/5.jpg
+INPUT ./images/5.jpg
+INPUT ./images/5.jpg
+INPUT ./images/6.jpg
+INPUT ./images/6.jpg
+INPUT ./images/6.jpg
+INPUT hw03.aux
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb

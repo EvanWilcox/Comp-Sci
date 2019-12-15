@@ -1,0 +1,8 @@
+print("HELLO")
+res = input()
+print("WHAT I RECEIVED:")
+print(res)
+print("Waiting some more")
+res = input()
+print("WHAT I RECEIVED:")
+print(res)

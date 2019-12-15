@@ -1,0 +1,17 @@
+digraph finite_state_machine { 
+rankdir=LR;
+_ize="8,5"
+
+node [shape = point] x
+node [shape = circle] 0
+node [shape = circle] 1
+node [shape = circle] 2
+node [shape = doublecircle] 3
+
+x -> 0
+0 -> 1 [label = Integer]
+
+1 -> 2 [label = "."]
+2 -> 3 [label = "0-9"]
+3 -> 3 [label = "0-9"]
+}

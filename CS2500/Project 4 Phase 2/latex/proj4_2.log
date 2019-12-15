@@ -1,0 +1,381 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.4)  2 MAY 2019 02:48
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/Evan/Documents/MST/CS2500/Project 4 Phase 2/latex/proj4_2.tex"
+(c:/Users/Evan/Documents/MST/CS2500/Project 4 Phase 2/latex/proj4_2.tex
+LaTeX2e <2018-04-01> patch level 5
+(c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/09/02 3.23 The Babel package
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/09/02 3.23 Babel switching mechanism
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/09/02 3.23 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count89
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip43
+\enit@outerparindent=\dimen106
+\enit@toks=\toks17
+\enit@inbox=\box26
+\enitdp@description=\count90
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count91
+\c@Blindtext=\count92
+\c@blind@countparstart=\count93
+\blind@countxx=\count94
+\blindtext@numBlindtext=\count95
+\blind@countyy=\count96
+\c@blindlist=\count97
+\c@blindlistlevel=\count98
+\c@blindlist@level=\count99
+\blind@listitem=\count100
+\c@blind@listcount=\count101
+\c@blind@levelcount=\count102
+\blind@mathformula=\count103
+\blind@Mathformula=\count104
+\c@blind@randomcount=\count105
+\c@blind@randommax=\count106
+\c@blind@pangramcount=\count107
+\c@blind@pangrammax=\count108
+) (c:/Users/Evan/Documents/MST/CS2500/Project 4 Phase 2/latex/proj4_2.aux)
+\openout1 = `proj4_2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count109
+\scratchdimen=\dimen107
+\scratchbox=\box27
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen108
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks19
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))) (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+ (c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 18.
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+[1
+
+{c:/Program Files (x86)/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 208--208
+[]    \OT1/cmtt/m/n/10 // Input cites names and coordinates and put them in a vector V of Nodes.[] 
+ []
+
+[4]
+Overfull \hbox (153.74565pt too wide) in paragraph at lines 208--208
+[]            \OT1/cmtt/m/n/10 dis = sqrt(pow((C[x].m_lat-C[y].m_lat), 2) + pow((C[x].m_lon-C[y].m_lon), 2)) * 69;[] 
+ []
+
+
+Overfull \hbox (53.99652pt too wide) in paragraph at lines 208--208
+[]    \OT1/cmtt/m/n/10 cout << "Edmonds-Karp: " << (float)(clock() - t)/CLOCKS_PER_SEC << endl;[] 
+ []
+
+
+Overfull \hbox (53.99652pt too wide) in paragraph at lines 208--208
+[]    \OT1/cmtt/m/n/10 cout << "Push Relabel: " << (float)(clock() - t)/CLOCKS_PER_SEC << endl;[] 
+ []
+
+
+Overfull \hbox (74.99634pt too wide) in paragraph at lines 208--208
+[]    \OT1/cmtt/m/n/10 cout << "Relabel to Front: " << (float)(clock() - t)/CLOCKS_PER_SEC << endl;[] 
+ []
+
+[5]
+Overfull \hbox (38.24666pt too wide) in paragraph at lines 251--251
+[]\OT1/cmtt/m/n/10 * Brief: A struct that pairs a name, latitude and longitude in to a node.[] 
+ []
+
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 251--251
+[]    \OT1/cmtt/m/n/10 City(string n, float lat, float lon): m_name(n), m_lat(lat), m_lon(lon){}[] 
+ []
+
+[6]
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 334--334
+[]        \OT1/cmtt/m/n/10 int n;                              // number of verticies[] 
+ []
+
+
+Overfull \hbox (80.24629pt too wide) in paragraph at lines 334--334
+[]        \OT1/cmtt/m/n/10 bool debug;                         // indicates if debug mode is enabled[] 
+ []
+
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 334--334
+[]        \OT1/cmtt/m/n/10 * Post : parent stores stores the graph in parent array form[] 
+ []
+
+
+Overfull \hbox (64.49643pt too wide) in paragraph at lines 334--334
+[]        \OT1/cmtt/m/n/10 * Param parent : vector that will store the graph in parent array form[] 
+ []
+
+[7]
+Overfull \hbox (74.99634pt too wide) in paragraph at lines 334--334
+[]        \OT1/cmtt/m/n/10 * Brief : computes the max flow of the graph strored in adj and capacity[] 
+ []
+
+
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 334--334
+[]        \OT1/cmtt/m/n/10 * Return : max flow of the graph stored in adj and capacity[] 
+ []
+
+[8] [9]
+Overfull \hbox (88.75093pt too wide) in paragraph at lines 420--422
+\OT1/cmr/m/n/10 Source - https://github.com/donachys/RelabelToFront-MaxFlow/blob/master/RelabelToFront.java 
+ []
+
+
+Overfull \hbox (80.24629pt too wide) in paragraph at lines 519--519
+[]    \OT1/cmtt/m/n/10 FlowNetwork(int n, int source, int snk, std::vector<std::vector<int>> &caps);[] 
+ []
+
+
+Overfull \hbox (158.9956pt too wide) in paragraph at lines 519--519
+[]    \OT1/cmtt/m/n/10 std::vector<std::vector<int>> buildNeighborList(int n, std::vector<std::vector<int>> &caps);[] 
+ []
+
+
+Overfull \hbox (90.7462pt too wide) in paragraph at lines 519--519
+[]    \OT1/cmtt/m/n/10 static std::vector<std::vector<int>> RectangularIntVector(int size1, int size2)[] 
+ []
+
+
+Overfull \hbox (122.24593pt too wide) in paragraph at lines 519--519
+[]\OT1/cmtt/m/n/10 FlowNetwork::FlowNetwork(int n, int source, int snk, std::vector<std::vector<int>> &caps)[] 
+ []
+
+[10]
+Overfull \hbox (200.99524pt too wide) in paragraph at lines 519--519
+[]\OT1/cmtt/m/n/10 std::vector<std::vector<int>> FlowNetwork::buildNeighborList(int n, std::vector<std::vector<int>> &caps)[] 
+ []
+
+
+Overfull \hbox (200.99524pt too wide) in paragraph at lines 519--519
+[]    \OT1/cmtt/m/n/10 std::vector<std::vector<int>> tempNeighbList(n); //create jagged neighbor array from edge capacities[] 
+ []
+
+[11]
+Overfull \hbox (116.99597pt too wide) in paragraph at lines 682--682
+[]    \OT1/cmtt/m/n/10 std::vector<int> discharge(FlowNetwork *fn, int target, std::vector<int> &currents);[] 
+ []
+
+
+Overfull \hbox (74.99634pt too wide) in paragraph at lines 682--682
+[]    \OT1/cmtt/m/n/10 std::vector<int> moveIndToFrontOfAry(std::vector<int> &list, int targetInd);[] 
+ []
+
+
+Overfull \hbox (143.24574pt too wide) in paragraph at lines 682--682
+[]    \OT1/cmtt/m/n/10 int flowAmt = std::min(fn->excess[from], fn->capacities[from][to] - fn->flows[from][to]);[] 
+ []
+
+[12]
+Overfull \hbox (232.49496pt too wide) in paragraph at lines 682--682
+[]        \OT1/cmtt/m/n/10 if (fn->capacities[target][myI] - fn->flows[target][myI] > 0 && fn->height[myI] >= fn->height[target])[] 
+ []
+
+
+Overfull \hbox (174.74547pt too wide) in paragraph at lines 682--682
+[]\OT1/cmtt/m/n/10 std::vector<int> RelabelToFront::discharge(FlowNetwork *fn, int target, std::vector<int> &currents)[] 
+ []
+
+
+Overfull \hbox (200.99524pt too wide) in paragraph at lines 682--682
+[]            \OT1/cmtt/m/n/10 //if we have, then we must relabel and reset our current inspection to the front of the list[] 
+ []
+
+
+Overfull \hbox (316.49423pt too wide) in paragraph at lines 682--682
+[]            \OT1/cmtt/m/n/10 //otherwise find the id of the neighbor, check if it is a valid push target and push, if not move to next neighbor[] 
+ []
+
+
+Overfull \hbox (122.24593pt too wide) in paragraph at lines 682--682
+[]            \OT1/cmtt/m/n/10 int residualCap = fn->capacities[target][neighb] - fn->flows[target][neighb];[] 
+ []
+
+
+Overfull \hbox (85.49625pt too wide) in paragraph at lines 682--682
+[]            \OT1/cmtt/m/n/10 if (residualCap > 0 && fn->height[target] == (fn->height[neighb] + 1))[] 
+ []
+
+[13]
+Overfull \hbox (48.74657pt too wide) in paragraph at lines 682--682
+[]            \OT1/cmtt/m/n/10 dischargeList = moveIndToFrontOfAry(dischargeList, curVertInd);[] 
+ []
+
+
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 682--682
+[]    \OT1/cmtt/m/n/10 fn->height[fn->src] = fn->numVertices; //height of source = |V|[] 
+ []
+
+
+Overfull \hbox (164.24556pt too wide) in paragraph at lines 682--682
+[]    \OT1/cmtt/m/n/10 fn->excess[fn->src] = INF; //temporarily allow source to have infinite excess to utilize push[] 
+ []
+
+
+Overfull \hbox (132.74583pt too wide) in paragraph at lines 682--682
+[]\OT1/cmtt/m/n/10 std::vector<int> RelabelToFront::moveIndToFrontOfAry(std::vector<int> &list, int targetInd)[] 
+ []
+
+[14] [15]
+Overfull \hbox (237.74492pt too wide) in paragraph at lines 809--809
+[]    \OT1/cmtt/m/n/10 Edge(int from, int to, T cap, T flow, int index): from(from), to(to), cap(cap), flow(flow), index(index) {}[] 
+ []
+
+
+Overfull \hbox (32.9967pt too wide) in paragraph at lines 809--809
+[]        \OT1/cmtt/m/n/10 adj[from].push_back(Edge <T>(from, to, cap, 0, adj[to].size()));[] 
+ []
+
+
+Overfull \hbox (43.49661pt too wide) in paragraph at lines 809--809
+[]        \OT1/cmtt/m/n/10 adj[to].push_back(Edge <T>(to, from, 0, 0, adj[from].size() - 1));[] 
+ []
+
+[16]
+Overfull \hbox (510.74254pt too wide) in paragraph at lines 809--809
+[]        \OT1/cmtt/m/n/10 dist = vector <int>(n, 0), excess = vector<T>(n, 0), count = vector <int>(n + 1, 0), active = vector <bool>(n, false), B = vector <vector <int>>(n), b = 0;[] 
+ []
+
+[17] [18] (c:/Users/Evan/Documents/MST/CS2500/Project 4 Phase 2/latex/proj4_2.aux) ) 
+Here is how much of TeX's memory you used:
+ 2423 strings out of 492642
+ 37127 string characters out of 6123637
+ 122760 words of memory out of 5000000
+ 6286 multiletter control sequences out of 15000+600000
+ 7756 words of font info for 28 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,6n,25p,335b,243s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "c:/Users/Evan/Documents/MST/CS2500/Project 4 Phase 2/latex/proj4_2.pdf" (18 pages, 106885 bytes).
+PDF statistics:
+ 86 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,19 @@
+{
+  "name": "dbapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "node-pre-gyp": "^0.11.0",
+    "sqlite3": "^4.0.3"
+  }
+}

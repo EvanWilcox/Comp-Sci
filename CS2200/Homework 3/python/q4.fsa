@@ -1,0 +1,37 @@
+A ab
+S start, 0
+S b, 1
+S ba, 1
+S bb, 0
+S even, 0
+B start
+D start, a, start
+D start, b, b
+D b, a, ba
+D b, b, bb
+D bb, a, bb
+D bb, b, bb
+D ba, a, ba
+D ba, b, even
+D even, a, start
+D even, b, bb
+T a
+O Rejected
+T b
+O Accepted
+T ab
+O Accepted
+T ba
+O Accepted
+T aba
+O Accepted
+T bab
+O Rejected
+T abaaaaba
+O Rejected
+T baaaaababa
+O Accepted
+T bb
+O Rejected
+T abbabbaba
+O Rejected

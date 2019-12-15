@@ -1,0 +1,46 @@
+A de
+S start, 1
+S 1, 1
+S 2, 1
+S 3, 1
+S 4, 1
+S 5, 1
+S 6, 1
+S 7, 0
+B start
+D start, d, 1
+D start, e, 1
+D 1, d, 2
+D 1, e, 2
+D 2, d, 3
+D 2, e, 3
+D 3, d, 4
+D 3, e, 4
+D 4, d, 5
+D 4, e, 5
+D 5, d, 6
+D 5, e, 6
+D 6, d, 7
+D 6, e, 7
+T 
+O Accepted
+T d
+O Accepted
+T e
+O Accepted
+T dd
+O Accepted
+T ee
+O Accepted
+T dedede
+O Accepted
+T ededed
+O Accepted
+T eeeeee
+O Accepted
+T dddddd
+O Accepted
+T eeeeeddddd
+O Rejected
+T ddedeeddeed
+O Rejected

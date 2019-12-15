@@ -1,0 +1,5 @@
+PWD c:/Users/Evan/Documents/MST/CS2300/HW3
+INPUT c:/Program Files (x86)/texlive/2018/texmf.cnf
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/web2c/texmf.cnf
+INPUT c:/Program Files (x86)/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/Evan/Documents/MST/CS2300/HW3/hw3.tex

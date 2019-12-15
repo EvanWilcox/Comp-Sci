@@ -1,0 +1,25 @@
+Evan Wilcox
+CS1585
+
+
+Problem 1
+
+* 341.4kb
+* 90.8kb
+
+
+
+Problem 2
+
+* operator[], length, push_back, copy constructor, destructor
+
+* vect isn't being pased by refrence
+
+* yes it stoped calling the copy constructor so often
+
+
+
+Problem 3
+
+* line 21
+

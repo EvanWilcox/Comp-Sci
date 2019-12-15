@@ -1,0 +1,16 @@
+{
+  "name": "Overwatch-Stat-Manager",
+  "version": "1.0.2",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "cacheDirectories": ["webapp/node_modules", "dbapp/node_modules"],
+  "dependencies": {
+    "concurrently": "^4.0.1"
+  },
+  "scripts": {
+    "install": "(cd dbapp && npm install) && (cd webapp && npm install && npm run build)",
+    "build": "cd webapp && npm run build",
+    "start": "cd dbapp && node index.js"
+  }
+}

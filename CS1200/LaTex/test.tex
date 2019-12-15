@@ -1,0 +1,29 @@
+\documentclass{article}
+
+\newcommand{\indsize}{}
+\newcommand{\colind}[2]{\displaystyle\smash{\mathop{#1}^{\raisebox{.5\normalbaselineskip}{\indsize #2}}}}
+\newcommand{\rowind}[1]{\mbox{\indsize #1}}
+
+\begin{document}
+
+\begin{center}
+    $\:\:\:B$
+\end{center}
+\[
+    A \: \: \: \: \:
+  \begin{array}{@{}c@{}}
+    \rowind{2} \\ \rowind{3} \\ \rowind{4} \\ \rowind{5} \\ \rowind{6}
+  \end{array}
+  \mathop{\left[
+  \begin{array}{ *{7}{c} }
+     \colind{0}{-5}  &  \colind{0}{3}  &  \colind{0}{7}  & \colind{1}{10} & \colind{0}{15}  & \colind{0}{33} & \colind{0}{37}\\
+     0 & 1 & 0 & 0 & 1 & 1 & 0 \\
+     0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+     1 & 0 & 0 & 1 & 1 & 0 & 0 \\
+     0 & 0 & 0 & 0 & 0 & 0 & 0
+  \end{array}
+  \right]}^{
+  }
+\]
+
+\end{document}

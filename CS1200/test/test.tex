@@ -1,0 +1,44 @@
+\documentclass{book}
+\usepackage{tikz}
+\usetikzlibrary{positioning,chains,fit,shapes,calc}
+
+\begin{document}
+
+\definecolor{myblue}{RGB}{80,80,160}
+\definecolor{mygreen}{RGB}{80,160,80}
+
+\begin{tikzpicture}[thick,
+  every node/.style={draw,circle},
+  fsnode/.style={fill=myblue},
+  ssnode/.style={fill=mygreen},
+  every fit/.style={ellipse,draw,inner sep=-2pt,text width=2cm},
+  ->,shorten >= 3pt,shorten <= 3pt
+]
+
+% the vertices of A
+\begin{scope}[start chain=going below,node distance=7mm]
+\foreach \i in {0,1,2,...,5}
+  \node[fsnode,on chain] (f\i) [label=left: \i] {};
+\end{scope}
+
+% the vertices of f(A)
+\begin{scope}[xshift=4cm,yshift=-0.0cm,start chain=going below,node distance=7mm]
+\foreach \i in {0,1,2,...,5}
+  \node[ssnode,on chain] (s\i) [label=right: \i] {};
+\end{scope}
+
+% the set U
+\node [black,fit=(f0) (f5),label=above:$A$] {};
+% the set V
+\node [black,fit=(s0) (s5),label=above:$f(A)$] {};
+
+% the edges
+\draw (f0) -- (s5);
+\draw (f1) -- (s3);
+\draw (f2) -- (s0);
+\draw (f3) -- (s0);
+\draw (f4) -- (s4);
+\draw (f5) -- (s1);
+\end{tikzpicture}
+
+\end{document}

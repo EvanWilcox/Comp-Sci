@@ -1,0 +1,55 @@
+A fg
+S 0, 0
+S 1, 0
+S 2, 0
+S 3, 0
+S 4, 0
+S 5, 0
+S 6, 0
+S 7, 0
+S 8, 0
+S 9, 0
+S 10, 0
+S 11, 0
+S 12, 0
+S 13, 0
+S 14, 1
+B 0
+D 0, @, 1
+D 0, @, 14
+D 1, @, 2
+D 1, @, 5
+D 1, @, 9
+D 2, f, 3
+D 3, g, 4
+D 4, @, 13
+D 5, f, 6
+D 6, f, 7
+D 7, g, 8
+D 8, @, 13
+D 9, f, 10
+D 10, g, 11
+D 11, f, 12
+D 12, @, 13
+D 13, @, 1
+D 13, @, 14
+T 
+O Accepted
+T f
+O Rejected
+T g
+O Rejected
+T fg
+O Accepted
+T ffg
+O Accepted
+T fgf
+O Accepted
+T fgffgfgffg
+O Accepted
+T ffggffg
+O Rejected
+T ffgfggfgf
+O Rejected
+T fgfgfffg
+O Accepted

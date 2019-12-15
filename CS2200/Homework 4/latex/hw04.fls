@@ -1,0 +1,109 @@
+PWD c:/Users/Evan/Documents/MST/CS2200/Homework 4/latex
+INPUT c:/Program Files (x86)/texlive/2018/texmf.cnf
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/web2c/texmf.cnf
+INPUT c:/Program Files (x86)/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/Evan/Documents/MST/CS2200/Homework 4/latex/hw04.tex
+OUTPUT c:/Users/Evan/Documents/MST/CS2200/Homework 4/latex/hw04.log
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/article.cls
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/article.cls
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/babel/switch.def
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/blindtext/blindtext.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/blindtext/blindtext.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/tools/xspace.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/tools/xspace.sty
+INPUT c:/Users/Evan/Documents/MST/CS2200/Homework 4/latex/hw04.aux
+INPUT c:/Users/Evan/Documents/MST/CS2200/Homework 4/latex/hw04.aux
+OUTPUT c:/Users/Evan/Documents/MST/CS2200/Homework 4/latex/hw04.aux
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT c:/Users/Evan/Documents/MST/CS2200/Homework 4/latex/./images/1a.png
+INPUT ./images/1a.PNG
+OUTPUT c:/Users/Evan/Documents/MST/CS2200/Homework 4/latex/hw04.pdf
+INPUT ./images/1a.PNG
+INPUT c:/Users/Evan/Documents/MST/CS2200/Homework 4/latex/./images/1b.png
+INPUT ./images/1b.PNG
+INPUT ./images/1b.PNG
+INPUT c:/Program Files (x86)/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT c:/Users/Evan/Documents/MST/CS2200/Homework 4/latex/./images/2a.png
+INPUT ./images/2a.PNG
+INPUT ./images/2a.PNG
+INPUT c:/Users/Evan/Documents/MST/CS2200/Homework 4/latex/./images/2b.png
+INPUT ./images/2b.PNG
+INPUT ./images/2b.PNG
+INPUT c:/Users/Evan/Documents/MST/CS2200/Homework 4/latex/./images/5a.png
+INPUT ./images/5a.png
+INPUT ./images/5a.png
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+INPUT c:/Users/Evan/Documents/MST/CS2200/Homework 4/latex/./images/5b.png
+INPUT ./images/5b.png
+INPUT ./images/5b.png
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+INPUT c:/Users/Evan/Documents/MST/CS2200/Homework 4/latex/hw04.aux
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb

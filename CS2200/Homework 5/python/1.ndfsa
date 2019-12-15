@@ -1,0 +1,17 @@
+A ab
+S Start, 0
+S b, 1
+S ba, 1
+S bb, 0
+S even, 0
+B Start
+D Start, a, Start
+D Start, b, b
+D b, a, ba
+D b, b, bb
+D ba, a, ba
+D ba, b, even 
+D even, a, Start
+D even, b, bb 
+D bb, a, bb
+D bb, b, bb

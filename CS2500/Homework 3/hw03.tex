@@ -1,0 +1,161 @@
+\documentclass[a4paper]{article}
+
+\usepackage{forest}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{blindtext}
+\usepackage{amsmath}
+\graphicspath{ {./images/} }
+
+
+\title{CS2500 Homework 2}
+\author{Evan Wilcox}
+\setlength\parindent{0pt}
+    
+\date{Due Feburary 19, 2019}
+    
+\begin{document}
+    \maketitle
+
+    \begin{enumerate}
+
+        \item 
+
+
+
+        \item
+
+
+
+        \item
+
+
+
+        \newpage
+        \item
+        \textbf{4.4-2} \\
+        Use a recursion tree to determine a good asymptotic upper bound on the 
+        recurrence $T(n) = T(n/2) + n^{2}$. Use the substitution method to verify 
+        your answer.
+
+
+        \newpage
+        \item
+        \textbf{4.4-3} \\
+        Use a recursion tree to determine a good asymptotic upper bound on the 
+        recurrence $T(n) = 4T(n/2 + 2) + n$. Use the substitution method to verify 
+        your answer.
+
+        \newpage
+        \item
+        \textbf{4.4-4} \\
+        Use a recursion tree to determine a good asymptotic upper bound on the 
+        recurrence $T(n) = 2T(n-1) + 1$. Use the substitution method to verify 
+        your answer.
+
+        \newpage
+        Give asymptotic upper and lower bounds for $T(n)$ in each of the following 
+        recurrences. Assume that $T(n)$ is constant for sufficiently small $n$. Make 
+        your bounds as tight as possible, and justify your answers. 
+        \item
+        
+        \textbf{4-3a} \\
+        $T(n) = 4T(n/3) + n$lg$n$
+
+
+        \item 
+        \textbf{4-3h} \\
+        $T(n) = T(n-1) + $lg$n$
+
+
+    \end{enumerate}
+
+
+
+    \begin{forest}
+        for tree={
+          parent anchor=south,
+          s sep=2pt
+        },
+        delay={for descendants={
+          if n=1
+            {draw,content/.wrap 2 pgfmath args=
+              {$c\binom{n}{#2}^{2}$}{content}{int(2^level)}}
+              {if n'=1{draw,content/.wrap 2 pgfmath args=
+                {$c\binom{n}{#2}^{2}$}{content}{int(2^level)}}{}
+              },  
+             where n children={0}{draw,content=c}{}
+          }
+        }
+        [$cn^{2}$,draw
+          [
+            [
+              []
+              [
+                [,phantom]
+              ]
+              [
+                [,phantom]
+              ]
+              []
+            ]
+            [
+              [,phantom]
+            ]
+            [
+              [,phantom]
+            ]
+            [
+              []
+              [
+                [,phantom]
+              ]
+              [
+                [,phantom]
+              ]
+              []
+            ]
+          ]
+          [
+            [,phantom [,phantom]]
+          ]
+          [
+            [,phantom [,phantom]]
+          ]
+          [
+            [
+              []
+              [
+                [,phantom]
+              ]
+              [
+                [,phantom]
+              ]
+              []
+            ]
+            [
+              [,phantom]
+            ]
+            [
+              [,phantom]
+            ]
+            [
+              []
+              [
+                [,phantom]
+              ]
+              [
+                [,phantom]
+              ]
+              []
+            ]
+          ]
+        ]
+        \end{forest}
+
+
+
+\end{document}

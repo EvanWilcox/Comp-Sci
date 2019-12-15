@@ -1,0 +1,19 @@
+PWD c:/Users/Evan/Documents/MST/CS1200/LaTex
+INPUT c:/Program Files (x86)/texlive/2018/texmf.cnf
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/web2c/texmf.cnf
+INPUT c:/Program Files (x86)/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/Evan/Documents/MST/CS1200/LaTex/test.tex
+OUTPUT test.log
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/article.cls
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/article.cls
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+INPUT test.aux
+INPUT test.aux
+OUTPUT test.aux
+OUTPUT test.pdf
+INPUT c:/Program Files (x86)/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT test.aux
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT c:/Program Files (x86)/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb

@@ -1,0 +1,14 @@
+digraph finite_state_machine {
+   rankdir=LR;
+   _ize="8,5"
+
+   node [shape = point] x
+   node [shape = circle] First
+   node [shape = doublecircle] Second
+   node [shape = circle] Third
+
+   x -> First
+   First -> Second [label = "a"]
+   Second -> Third [label = "b"]
+   Third -> First [label = "c"]
+}

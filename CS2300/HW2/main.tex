@@ -1,0 +1,120 @@
+\documentclass[12pt]{article}
+\usepackage{times,amsmath,amsthm,amsfonts,graphicx,float,cite}
+\usepackage{epstopdf,tikz,mathrsfs,dsfont,geometry,tabularx,booktabs}
+\usepackage{pdflscape,tcolorbox}
+\usepackage{clrscode3e}
+\usepackage{enumerate}
+\usepackage{mathtools}
+\restylefloat{table}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+%===========================================
+% Page Margins
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\topmargin}{-0.5in}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{9in}
+\setlength{\headsep}{0.25in}
+\setlength{\parindent}{0in}
+\setlength{\parskip}{0.05in}
+%===========================================
+% The following commands set up the num (number) counter and
+% make various numbering schemes work relative to the problem number.
+\newcounter{num}
+\renewcommand{\thesection}{Problem~\arabic{section}}
+%===========================================
+% The following macro is used to generate the header.
+\newcommand{\header}[3]{
+\setcounter{num}{1}
+\noindent
+\begin{center}
+\framebox{
+\vbox{
+\vspace{2mm}
+\hbox to 6.28in { {Missouri University of Science \& Technology \hfill Department of Computer Science} }
+\hbox to 6.28in { {\bf Fall 2018 \hfill CS 2300: Databases} }
+\vspace{2mm}
+\hbox to 6.28in { {\bf \large \hfill Solutions to Homework 2  \hfill} }
+\vspace{2mm}
+\hbox to 6.28in { {\bf Name: {\it #2} \hfill Email: {\it #3}} }% Scribe: {\it #3}} }
+\vspace{2mm}
+}
+}
+\end{center}
+\vspace*{2mm}
+}
+%===========================================
+% User-defined theorems, commands and other math operators
+\newtheorem{defn}{Definition}
+\newtheorem{thrm}{Theorem}
+\DeclareMathOperator*{\modulo}{modulo}
+%===========================================
+%===========================================
+
+% The main document begins here...
+\begin{document}
+% Define your header here
+\header{1}{Andrew Henningsen, Evan Wilcox}{achcdp@mst.edu}
+%===========================================
+\section{}
+\begin{enumerate}
+\item
+\begin{enumerate}
+    \item This is allowed because ESsn must be unique and there are no duplicates when this is added. In addition it doesn't already exist(Key Constraint), The key is not Null(Entity integrity) and it doesn't reference non existent primary keys(referential integrity).
+    \item This is allowed because Pnumber must be unique and there are no duplicates when this is added. In addition it doesn't already exist(Key Constraint), The key is not Null(Entity integrity) and it doesn't reference non existent primary keys(referential integrity).
+    \item This is NOT allowed because there are duplicate Dnumbers. This could be rectified by changing Production's DNumber to 3 (violates key constraint).
+    \item This is NOT allowed because Pno is a key and it must not be Null, otherwise there would be no way of knowing which Pno it corresponds to. This can be fixed by changing null to a valid Pno (Null is not in the domain of a Key) (entity integrity constraint violation).
+    \item This is allowed because no duplicates are introduced with the keys Essn and Dependend\_name. In addition it doesn't already exist(Key Constraint), The key is not Null(Entity integrity) and it doesn't reference non existent primary keys(referential integrity).
+    \item This is allowed because it doesn't violate referential integrity (nothing references any of the attributes in WORKS\_ON.
+    \item This is not allowed because it violates referential integrity. In department the Mgr\_ssn references this ssn which is going to be deleted. To fix this, we must propogate these deletions/changes in DEPARTMENT by changing the Mgr\_ssn's that equal "987654321" and the WORKS\_ON tuples that have Essn = "987654321" and the DEPENDENT's that have Essn = "987654321" and the Super\_ssn's that are equal to this ssn.
+    \item This also violates referential integrity because there is an attribute Pnumber in tuples in WORKS\_ON that reference a PROJECT with Pnumber of 1. This could be fixed by not removing this project or removing/changing the WORKS\_ON tuples that reference it.
+    \item This modification is allowed because the changing of Mgr\_ssn references a valid Ssn that exists, and mgr\_start\_date doesn't reference anything.
+    \item This is allowed because super\_ssn references a valid key(it was added in a).
+    \item This is allowed because it exists and wont violate any of the constraints.
+\end{enumerate}
+\end{enumerate}
+\newpage
+%===========================================
+\section{}
+\begin{enumerate}
+    \item Relational algebra expressions using the relational operators discussed in class.
+    
+    \begin{enumerate}
+        \item Product = $\sigma_{Pname="ProductX"} (PROJECT)$ \\
+        ProductXNumber = $\Pi_{Pnumber}(ProductX)$ \\
+        WorksOnProdX = $WORKS\_ON \bowtie_{Pnumber = Pno} ProductXNumber$ \\
+        5hrsOnProdX = $\sigma_{Hours > 5}(WorksOnProdX)$ \\
+        EOnProdX = $5hrsOnProdX \bowtie_{Essn = Ssn} EMPLOYEE$ \\
+        D5OnProdX = $\sigma_{Dno = 5}(EOnProdX)$\\
+        \item DependentNameSSN = $\Pi_{Essn, Dependent\_name}(DEPENDENT)$ \\
+        DependentWEmploy = $EMPLOYEE \bowtie_{Essn = Ssn} DependentNameSSN$ \\
+        SameName = $\sigma_{Lname = Dependent\_name}(DependentWEmploy)$
+        \item FWong = $\sigma_{Fname = "Franklin" \& Lname = "Wong}(EMPLOYEE)$ \\
+        FWongSsn = $\Pi_{Ssn}(FWong)$ \\
+        Supervised = $FWongSsn \bowtie_{Ssn = Super_ssn}EMPLOYEE$ \\
+        Names = $\Pi_{Fname, Lname}(Supervised)$ \\
+        \item HoursPerProj = $Pno F_{Sum Hours}(WORKS_ON) $\\
+        NamesHours = $PROJECT \bowtie_{Pnumber = Pno}(HoursPerProj)$
+        \item ProjNums = $\Pi_{Pnumber}(PROJECT)$\\
+        Projects = $\rho_{Pno}(ProjNums) $\\
+        EmployeeProj = $\Pi_{Essn, Pno}(WORKS\_ON)$ \\
+        WorkOnAll = $EmployeeProj \div Projects$ \\
+        \item AllEmploy = $\Pi_{Ssn}(EMPLOYEE)$ \\
+        EmployOnProj = $\Pi_{Essn}(WORKS\_ON)$ \\
+        DontWorkOnProj = AllEmploy - EmployOnProj \\
+        \item AvgSal = Dno $F_{Average\:Salary}(EMPLOYEE)$ \\
+        DepNameNo = $\Pi_{Dname, Dnumber}(DEPARTMENT)$ \\
+        NameAvgSal = $DepNameNo \bowtie_{Dnumber = Dno} AvgSal$ \\
+        \item Females = $\sigma_{Sex="F"}(EMPLOYEE)$\\
+        AvgSalary=$F_{Average\:Salary}(Females)$
+    \end{enumerate}
+\end{enumerate}
+\newpage
+%===========================================
+\section{}
+In ORDER, Cust\# is a foreign key to a CUSTOMER attribute, Cust\#.\\
+In ORDER\_ITEM, Order\# is a foreign key to an ORDER attribute Order\#. and Item\# is a foreign key to an ITEM attribute ITEM\#.\\
+In SHIPMENT, Order\# is a foreign key to an ORDER attribute Order\#. and Warehouse\# is a foreign key to a WAREHOUSE attribute Warehouse\#\\
+\newpage
+\end{document}

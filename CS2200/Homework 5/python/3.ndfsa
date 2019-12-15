@@ -1,0 +1,34 @@
+A cd
+S Start, 0
+S d, 0
+S dc, 0
+S cd, 1
+B Start
+D Start, c, Start
+D Start, d, d
+D d, c, dc
+D d, d, d
+D dc, c, dc
+D dc, d, cd
+D cd, c, cd
+D cd, d, cd
+T 
+O Rejected
+T c
+O Rejected
+T dc
+O Rejected
+T cdc
+O Rejected
+T cccccdddddccccc
+O Rejected
+T ccccdddddccccddddd
+O Accepted
+T cdcdcdc
+O Accepted
+T dddccdcdccddcdcdcdcdc
+O Accepted
+T ccccccddddddddccccccddddddddcccccccddddd
+O Accepted
+T dddddcdcdcdcdcdddddddddccccccccc
+O Accepted 

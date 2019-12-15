@@ -1,0 +1,19 @@
+digraph finite_state_machine {
+   rankdir=LR;
+   _ize="8,5"
+
+   node [shape = point] x
+   node [shape = circle] Start
+   node [shape = circle] d
+   node [shape = circle] dc
+   node [shape = doublecircle] cd
+
+   x -> Start
+   Start -> Start [label = "c"]
+   Start -> d [label = "d"]
+   d -> dc [label = "c"]
+   d -> d [label = "d"]
+   dc -> dc [label = "c"]
+   dc -> cd [label = "d"]
+   cd -> cd [label = "c, d"]
+}

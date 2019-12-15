@@ -1,0 +1,14 @@
+A abc
+S First, 0
+S Second, 0
+S Third, 0
+B First
+D First, a, Second
+D Second, b, Third
+D Third, c, First
+T abccbaac
+O Rejected
+T acabccabb
+O Rejected
+T abccbabac
+O Rejected

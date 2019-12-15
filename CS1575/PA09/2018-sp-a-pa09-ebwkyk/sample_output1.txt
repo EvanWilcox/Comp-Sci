@@ -1,0 +1,2 @@
+The shortest path from Pesos to Euros is:
+Pesos, Euros, with sum exchange cost of 5.7 and bribe cost of 6.

@@ -1,0 +1,2 @@
+The shortest path from Pounds to Euros is:
+Pounds, Dollars, Euros, with sum exchange cost of 4.5 and bribe cost of 3.2.

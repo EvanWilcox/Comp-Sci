@@ -1,0 +1,43 @@
+{
+  "name": "gozuno-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.4.1",
+    "@material-ui/icons": "^4.4.1",
+    "immutability-helper": "^3.0.1",
+    "jsonpickle": "^1.1.2",
+    "react": "^16.9.0",
+    "react-adsense": "^0.1.0",
+    "react-dnd": "^9.4.0",
+    "react-dnd-html5-backend": "^9.4.0",
+    "react-dom": "^16.9.0",
+    "react-multi-carousel": "^2.4.0",
+    "react-scripts": "3.1.1",
+    "react-slick": "^0.25.2",
+    "socket.io": "^2.3.0",
+    "typeface-roboto": "^0.0.75"
+  },
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
